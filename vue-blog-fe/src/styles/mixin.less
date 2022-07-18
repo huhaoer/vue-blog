@@ -1,0 +1,16 @@
+// 父容器中居中
+.self-center(@posi:absolute) {
+    position: @posi;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// 撑满父容器
+.self-fill(@posi:absolute) {
+    position: @posi;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

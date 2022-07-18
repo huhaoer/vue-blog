@@ -1,0 +1,34 @@
+//全局样式初始化代码
+@import "./variable.less";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: @words;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "微软雅黑", "sans-serif", Avenir, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: @primary;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+}
